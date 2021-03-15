@@ -1,0 +1,129 @@
+._brand {
+  opacity: 0.6;
+}
+
+._brand:hover {
+  opacity: 0.8;
+}
+
+._brand.activeBrand {
+  opacity: 1;
+}
+
+.trash_icon i,
+.edit_icon i {
+  opacity: 0.7;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+.trash_icon.none i,
+.edit_icon.none i {
+  color: #cccccc;
+  opacity: 0.5;
+  cursor: not-allowed;
+  font-size: 1.2rem;
+}
+
+.trash_icon i {
+  color: #ff0000;
+}
+
+.trash_icon.none i:hover,
+.edit_icon.none i:hover {
+  opacity: 0.5;
+}
+.trash_icon i:hover,
+.edit_icon i:hover {
+  opacity: 1;
+}
+
+.edit_icon i {
+  color: #0000ff;
+}
+
+.like.icon {
+  cursor: pointer;
+}
+
+.mobile_display {
+  display: none;
+}
+._index_amount {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+}
+.mobile_icon_trash, .mobile_icon_edit {
+  position: absolute;
+}
+.mobile_icon_trash {
+  top: 3rem;
+  right: 0.5rem;
+}
+.mobile_icon_edit {
+  top: 5rem;
+  right: 0.2rem;
+}
+.d-flex.align-items-center.shortpost_icons > div {
+  cursor: pointer;
+  margin-left: 1rem;
+}
+
+.try_again {
+  color: #0000ff;
+  cursor: pointer;
+}
+.try_again:hover {
+  text-decoration: underline;
+}
+.shortpost_edit_input {
+  border: none;
+  outline: none;
+  color: #000000;
+  padding: 0.2rem;
+  width: 100%;
+}
+.registerasastudent {
+  color: #6f6fff;
+  cursor: pointer;
+}
+.registerasastudent:hover {
+  text-decoration: underline;
+}
+.touserdetails:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.loginForm {
+    position: relative;
+}
+.toHome {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+.toHome.icon > i {
+    color: green;
+    font-size: 2rem;
+    cursor: pointer;
+    opacity: 0.9;
+}
+.toHome.icon > i:hover {
+    opacity: 1;
+}
+.forgotPassword:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.passwordInp {
+  position: relative;
+}
+.eyeIcon {
+  position: absolute;
+  line-height: 60px;
+  top: 0;
+  right: 1rem;
+  cursor: pointer;
+}
